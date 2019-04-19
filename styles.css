@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-image: url(images/My_drum_kit.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(105, 219, 223);
+  font-family: 'Cute Font', cursive;
+  padding: 10px 25px;
+  background-color: rgba(0,0,0, .4);
+  display: inline-block;
+  border-radius: 5px;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 1px 3px 4px 0 rgb(56, 182, 224);
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 3px solid rgb(2, 129, 127);
+  font-size: 5rem;
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  color: rgb(5, 192, 189);
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(143, 141, 141, .7);
+}
+
+.drum:active {
+  color: #fff;
+}
